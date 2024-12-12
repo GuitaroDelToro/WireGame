@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#wires-container {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	z-index: 2;
+	width: auto;
+}
+.wire {
+	width: 26px;
+	height: 20px;
+	background-color: red;
+	border-radius: 20px;
+	transform-origin: top;
+	cursor: pointer;
+}
+#wire1 {
+	transform: translateY(175px) translateX(220px)
+}
+#wire2 {
+	transform: translateY(200px) translateX(220px)
+}
+#wire3 {
+	transform: translateY(230px) translateX(220px)
+}
+#wire4 {
+	transform: translateY(275px) translateX(220px)
+}
+#wire5 {
+	transform: translateY(290px) translateX(220px)
+}
+#wire6 {
+	transform: translateY(310px) translateX(220px)
+	
+}
+
+#targets-container {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    z-index: 2;
+}
+
+.target {
+    
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 40px 0;
+}
+#target1 {
+	transform: translateY(135px) translateX(12px)
+}
+#target2 {
+	transform: translateY(120px) translateX(12px)
+}
+#target3 {
+	transform: translateY(110px) translateX(12px)
+}
+#target4 {
+	transform: translateY(110px) translateX(12px)
+}
+#target5 {
+	transform: translateY(90px) translateX(12px)
+}
+#target6 {
+	transform: translateY(65px) translateX(12px)
+	
+	}
+#target7 {
+	transform: translateY(-225px) translateX(-120px)
+	
+	}	
+#target8 {
+	transform: translateY(-240px) translateX(-120px)
+	
+	}	
+#target9 {
+	transform: translateY(-255px) translateX(-120px)
+	
+	}	
+#target10 {
+	transform: translateY(-250px) translateX(-120px)
+	
+	}	
+#target11 {
+	transform: translateY(-270px) translateX(-120px)
+	
+	}	
+#target12 {
+	transform: translateY(-290px) translateX(-120px)
+	
+	}	
+
